@@ -106,8 +106,8 @@ class crims_bot():
 
 
 if __name__ == "__main__":
-    login = "ledi13"
-    password = "maniek12"
+    login = "put your login here"
+    password = "put your password here"
     app = crims_bot(login, password)
 
 
