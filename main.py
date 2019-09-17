@@ -90,7 +90,7 @@ class crims_bot():
         if select:
             select.click()
             time.sleep(0.75)
-            for x in range(30):
+            for x in range(30): #// picks position from the list
                 select.send_keys(Keys.ARROW_DOWN)
                 if x == 29:
                     select.send_keys(Keys.ENTER)
@@ -159,8 +159,8 @@ class crims_bot():
             raise
 
 if __name__ == "__main__":
-    login = "ledi13"
-    password = "maniek12"
+    login = "your login"
+    password = "your password"
     try:
         app = crims_bot(login, password)
     except:
