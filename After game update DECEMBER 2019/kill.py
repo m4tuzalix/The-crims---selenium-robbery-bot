@@ -194,8 +194,8 @@ class crims_hitman():
             self.kill_people()
 
 if __name__ == "__main__":
-    login = "TwojStaryPedal" #// put your login here
-    password = "pedalek" #// put your password here
+    login = "login" #// put your login here
+    password = "password" #// put your password here
     try:
         app = crims_hitman(login, password)
     except:
