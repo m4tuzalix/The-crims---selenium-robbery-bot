@@ -148,8 +148,8 @@ class crims_gang():
         
 
 if __name__ == "__main__":
-    login = "TwojStaryPedal" #// put your login here
-    password = "pedalek" #// put your password here
+    login = "login" #// put your login here
+    password = "password" #// put your password here
     try:
         app = crims_gang(login, password)
     except:
